@@ -47,7 +47,7 @@ jobs:
       #    Esto permite descargar y revisar los resultados de los tests en la pestaña de Actions
       - name: Subir reportes de pruebas (Surefire)
         if: always()  # Se ejecuta este paso aunque los tests fallen
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: surefire-reports
           path: auth-console/target/surefire-reports/
