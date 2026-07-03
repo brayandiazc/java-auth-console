@@ -4,10 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ejemplo.auth</groupId>
     <artifactId>auth-console</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <name>auth-console</name>
-    <url>http://maven.apache.org</url>
+    <description>Sistema de autenticación por consola en Java para enseñanza de DevOps y testing.</description>
+    <url>https://github.com/brayandiazc/java-auth-console</url>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

@@ -1,0 +1,43 @@
+# Auto-etiquetado de Pull Requests según los archivos modificados.
+# Reglas ajustadas a la estructura de este proyecto Java / Maven.
+
+documentation:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "**/*.md"
+      - "docs/**/*"
+      - ".github/ISSUE_TEMPLATE/**/*"
+      - ".github/PULL_REQUEST_TEMPLATE.md"
+
+backend:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "auth-console/src/main/**/*"
+
+testing:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "auth-console/src/test/**/*"
+      - "**/*Test.java"
+
+dependencies:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "**/pom.xml"
+
+ci-cd:
+  - changed-files:
+    - any-glob-to-any-file:
+      - ".github/workflows/**/*"
+      - ".github/dependabot.yml"
+
+config:
+  - changed-files:
+    - any-glob-to-any-file:
+      - ".editorconfig"
+      - ".gitignore"
+
+github:
+  - changed-files:
+    - any-glob-to-any-file:
+      - ".github/**/*"

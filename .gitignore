@@ -47,3 +47,19 @@ buildNumber.properties
 .classpath
 
 # End of https://www.toptal.com/developers/gitignore/api/java,maven
+
+# ── Variables de entorno y secretos ───────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+
+# ── Sistema operativo ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editores / IDE ────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*~
