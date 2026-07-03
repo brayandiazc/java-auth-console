@@ -29,7 +29,7 @@ jobs:
       # 3. Cachea el repositorio local de dependencias de Maven (~/.m2/repository)
       #    Esto acelera el workflow reutilizando dependencias ya descargadas
       - name: Cachear dependencias Maven
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: |
             ~/.m2/repository
